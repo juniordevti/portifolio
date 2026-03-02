@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Página sobre mim, destacando minha carreira e habilidades profissionais."
+    />
+    <link rel="shortcut icon" href="github.png" type="image/x-icon" />
+    <title>Potfólio</title>
+  </head>
+  <body>
+    <header>
+      <a href="https://www.instagram.com/bwondevti/" target="_blank"><img src="instagram.webp" alt="instagram" /></a>
+      <a href="https://w.app/bwonjuniordevti" target="_blank"><img src="Whatsapp.png" alt="whatsapp" /></a>
+      <a href="https://github.com/juniordevti" target="_blank"><img src="github.png" alt="github" /></a>
+      <a href="https://www.linkedin.com/in/junior-dev-624840243/" target="_blank"><img src="linkedin.png" alt="linkedin" /></a>
+      <a href="https://www.youtube.com/@Junior_devTI" target="_blank"><img src="youtube.png" alt="youtube" /></a>
+      <a href="mailto:valdernandesjunior4874@gmail.com"><img src="gmail.png" alt="gmail" /></a>
+    </header>
+
+    <main>
+      <div id="capa"></div>
+      <h1>Valdernandes Júnior</h1>
+      <p id="desen">Desenvolvedor Frontend</p>
+
+      <p id="pSobre">Sobre Mim</p>
+      <p id="pDesc">
+        Sou um desenvolvedor frontend apaixonado por criar experiências digitais
+        envolventes e intuitivas. Com uma sólida formação em Análise e
+        Desenvolvimento de Sistemas, tenho experiência prática em linguagens
+        como Java, JavaScript e Python. Meu foco é transformar ideias em
+        interfaces funcionais e esteticamente agradáveis, utilizando as
+        melhores práticas de desenvolvimento web. Estou sempre em busca de
+        aprender novas tecnologias e aprimorar minhas habilidades para entregar
+        soluções inovadoras e de alta qualidade.
+      </p>
+      <svg
+        width="260"
+        height="80"
+        viewBox="0 0 260 80"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <!-- Gradiente animado -->
+          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#6a5cff">
+              <animate
+                attributeName="stop-color"
+                values="#6a5cff;#00c2ff;#6a5cff"
+                dur="6s"
+                repeatCount="indefinite"
+              />
+            </stop>
+            <stop offset="100%" stop-color="#00c2ff">
+              <animate
+                attributeName="stop-color"
+                values="#00c2ff;#6a5cff;#00c2ff"
+                dur="6s"
+                repeatCount="indefinite"
+              />
+            </stop>
+          </linearGradient>
+
+          <!-- Glow -->
+          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="6" result="blur" />
+            <feMerge>
+              <feMergeNode in="blur" />
+              <feMergeNode in="SourceGraphic" />
+            </feMerge>
+          </filter>
+        </defs>
+
+        <!-- Botão -->
+        <rect
+          x="10"
+          y="10"
+          rx="20"
+          ry="20"
+          width="240"
+          height="60"
+          fill="url(#grad)"
+          filter="url(#glow)"
+        >
+          <!-- Pulsação suave -->
+          <animate
+            attributeName="opacity"
+            values="0.9;1;0.9"
+            dur="3s"
+            repeatCount="indefinite"
+          />
+        </rect>
+
+        <!-- Texto -->
+        <text
+          x="130"
+          y="50"
+          font-size="20"
+          font-weight="600"
+          text-anchor="middle"
+          fill="white"
+          font-family="Arial, sans-serif"
+        >
+          <a href="curriculo.pdf" target="_blank">Meu Currículo</a>
+        </text>
+      </svg>
+      <!-- <a id="curriculo" href="curriculo.pdf">Baixar Curriculo</a> -->
+      <div id="divLinha"></div>
+
+      <p class="pEA">EXPERIÊNCIA ACADÊMICA</p>
+
+      <div class="gridEA">
+        <div class="divEA">
+          <!-- svg faculdade -->
+          <div>
+            <p class="pEA">Faculdade</p>
+            <svg
+              width="120"
+              height="120"
+              viewBox="0 0 120 120"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!-- Chapéu de formatura -->
+              <polygon points="20,45 60,30 100,45 60,60" fill="#6C63FF" />
+              <rect x="55" y="60" width="10" height="12" fill="#6C63FF" />
+              <line
+                x1="100"
+                y1="45"
+                x2="100"
+                y2="65"
+                stroke="#6C63FF"
+                stroke-width="3"
+              />
+              <circle cx="100" cy="68" r="4" fill="#6C63FF" />
+
+              <!-- Prédio -->
+              <rect
+                x="25"
+                y="70"
+                width="70"
+                height="30"
+                rx="6"
+                fill="#1E1E2F"
+              />
+
+              <!-- Colunas -->
+              <rect x="35" y="75" width="8" height="20" fill="#444" />
+              <rect x="51" y="75" width="8" height="20" fill="#444" />
+              <rect x="67" y="75" width="8" height="20" fill="#444" />
+              <rect x="83" y="75" width="8" height="20" fill="#444" />
+            </svg>
+          </div>
+          <p class="PNomeEA">UNICEUG</p>
+          <p class="pDescEA">
+            Formação em Análise e Desenvolvimento de Sistemas Curso focado em
+            lógica de programação, estruturas de dados, desenvolvimento web e
+            banco de dados. Durante a graduação desenvolvi projetos práticos
+            utilizando C, C#, Java e JavaScript, aplicando conceitos de
+            orientação a objetos e boas práticas de desenvolvimento.
+          </p>
+        </div>
+        <!-- linguagem em c -->
+        <div class="divEA">
+          <div>
+            <p class="pEA">C++ e C</p>
+            <svg
+              width="120"
+              height="120"
+              viewBox="0 0 200 200"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!-- Hexágono -->
+              <polygon
+                points="100,10 170,50 170,150 100,190 30,150 30,50"
+                fill="#00599C"
+              />
+
+              <!-- Letra C -->
+              <text
+                x="100"
+                y="125"
+                text-anchor="middle"
+                font-size="90"
+                font-family="Arial, sans-serif"
+                font-weight="bold"
+                fill="white"
+              >
+                C
+              </text>
+            </svg>
+          </div>
+          <p class="PNomeEA">Linguagem em C</p>
+          <p class="pDescEA">
+            Programação Estruturada e Base Computacional Experiência com lógica
+            de programação, ponteiros, manipulação de memória e estruturas de
+            dados. Utilizado para fortalecer a base computacional e compreensão
+            do funcionamento interno do software.
+          </p>
+        </div>
+        <!-- C# -->
+        <div class="divEA">
+          <div>
+            <p class="pEA">C#</p>
+            <svg
+              width="120"
+              height="120"
+              viewBox="0 0 200 200"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!-- Hexágono -->
+              <polygon
+                points="100,10 170,50 170,150 100,190 30,150 30,50"
+                fill="#68217A"
+              />
+
+              <!-- Texto -->
+              <text
+                x="100"
+                y="115"
+                text-anchor="middle"
+                font-size="60"
+                font-family="Arial, sans-serif"
+                font-weight="bold"
+                fill="white"
+              >
+                C#
+              </text>
+            </svg>
+          </div>
+          <p class="PNomeEA">Programação</p>
+          <p class="pDescEA">
+            Desenvolvimento com .NET Criação de aplicações utilizando C# com
+            foco em orientação a objetos, APIs REST e integração com banco de
+            dados. Experiência com boas práticas, organização de código e
+            arquitetura em camadas.
+          </p>
+        </div>
+        <!-- python -->
+        <div class="divEA">
+          <div>
+            <p class="pEA">Python</p>
+            <svg
+              width="120"
+              height="120"
+              viewBox="0 0 256 255"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!-- Parte azul -->
+              <path
+                fill="#3776AB"
+                d="
+    M128 0
+    C74 0 77 23 77 23
+    L77 48
+    L128 48
+    L128 64
+    L48 64
+    C48 64 0 64 0 128
+    C0 192 42 192 42 192
+    L64 192
+    L64 160
+    C64 160 63 128 96 128
+    L160 128
+    C160 128 192 129 192 96
+    L192 48
+    C192 48 197 0 128 0 Z"
+              />
+
+              <!-- Parte amarela -->
+              <path
+                fill="#FFD43B"
+                d="
+    M128 255
+    C182 255 179 232 179 232
+    L179 207
+    L128 207
+    L128 191
+    L208 191
+    C208 191 256 191 256 127
+    C256 63 214 63 214 63
+    L192 63
+    L192 95
+    C192 95 193 127 160 127
+    L96 127
+    C96 127 64 126 64 159
+    L64 207
+    C64 207 59 255 128 255 Z"
+              />
+
+              <!-- Olhos -->
+              <circle cx="96" cy="32" r="8" fill="white" />
+              <circle cx="160" cy="223" r="8" fill="white" />
+            </svg>
+          </div>
+          <p class="PNomeEA">Programação</p>
+          <p class="pDescEA">
+            Automação e Desenvolvimento de software Uso de Python para automação
+            de tarefas, manipulação de dados e desenvolvimento de aplicações.
+            Conhecimento em lógica, estruturas de controle e bibliotecas
+            essenciais.
+          </p>
+        </div>
+        <!-- JAVA -->
+        <div class="divEA">
+          <div>
+            <p class="pEA">JAVA</p>
+            <svg
+              width="120"
+              height="120"
+              viewBox="0 0 200 200"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!-- Hexágono -->
+              <polygon
+                points="100,10 170,50 170,150 100,190 30,150 30,50"
+                fill="#E76F00"
+              />
+
+              <!-- Texto -->
+              <text
+                x="100"
+                y="120"
+                text-anchor="middle"
+                font-size="55"
+                font-family="Arial, sans-serif"
+                font-weight="bold"
+                fill="white"
+              >
+                Java
+              </text>
+            </svg>
+          </div>
+          <p class="PNomeEA">Programação</p>
+          <p class="pDescEA">
+            Programação Orientada a Objetos Desenvolvimento de aplicações
+            utilizando conceitos de POO, encapsulamento, herança e polimorfismo.
+            Experiência com projetos acadêmicos e integração com banco de dados.
+          </p>
+        </div>
+        <!-- JAVASCRIPT -->
+        <div class="divEA">
+          <div>
+            <p class="pEA">JavaScript</p>
+            <svg
+              width="120"
+              height="120"
+              viewBox="0 0 200 200"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!-- Hexágono -->
+              <polygon
+                points="100,10 170,50 170,150 100,190 30,150 30,50"
+                fill="#F7DF1E"
+              />
+
+              <!-- Texto -->
+              <text
+                x="100"
+                y="120"
+                text-anchor="middle"
+                font-size="50"
+                font-family="Arial, sans-serif"
+                font-weight="bold"
+                fill="black"
+              >
+                JS
+              </text>
+            </svg>
+          </div>
+          <p class="PNomeEA">Programação</p>
+          <p class="pDescEA">
+            Desenvolvimento Web Front-end Criação de interfaces interativas e
+            responsivas. Manipulação do DOM, consumo de APIs e desenvolvimento
+            de funcionalidades dinâmicas para aplicações web modernas.
+          </p>
+        </div>
+      </div>
+      <!-- experiencia proffissional -->
+      <p class="pEA">EXPERIÊNCIA PROFISSIONAL</p>
+
+      <div class="gridEA">
+        <div class="divEA">
+          <!-- svg faculdade -->
+          <div>
+            <p class="pEA">AUXILIAR DE TI</p>
+          </div>
+          <p class="PNomeEA">ESTAGIO</p>
+          <p class="pDescEA">
+            Atuação como Auxiliar de TI Responsável por
+            suporte técnico, manutenção de hardware e software, além de
+            auxiliar na implementação de soluções tecnológicas para otimizar
+            processos internos. Experiência prática em resolução de problemas
+            e atendimento a usuários.
+          </p>
+        </div>
+        <!-- linguagem em c -->
+        <div class="divEA">
+          <div>
+            <p class="pEA">SUPORTE</p>
+          </div>
+          <p class="PNomeEA">BDD SQL</p>
+          <p class="pDescEA">
+            Suporte Técnico em Banco de Dados SQL Responsável por fornecer
+            suporte técnico relacionado a bancos de dados SQL, incluindo
+            resolução de problemas, otimização de consultas e manutenção de
+            dados. Experiência prática em ambientes de produção e colaboração
+            com equipes de desenvolvimento para garantir a integridade e
+            desempenho dos bancos de dados.
+          </p>
+        </div>
+      </div>
+      <p class="pLinguagens">Linguagens Experientes</p>
+      <p id="pClique">Clique para ver mais</p>
+      <div class="gridLinguagem">
+        <div class="divLinguagem"><p>HTML e CSS</p></div>
+        <div class="divLinguagem"><p>Java</p></div>
+        <div class="divLinguagem"><p>JavaScript</p></div>
+        <div class="divLinguagem"><p>Python</p></div>
+      </div>
+
+      <p class="pLinguagens">Banco de Dados</p>
+      <div class="gridLinguagem">
+        <div class="divLinguagem"><p>MySQL</p></div>
+        <div class="divLinguagem"><p>SQL Server</p></div>
+      </div>
+
+      <p class="pLinguagens">Frameworks</p>
+      <div class="gridLinguagem">
+        <div class="divLinguagem"><p>React</p></div>
+        <div class="divLinguagem"><p>Node.js</p></div>
+      </div>
+
+      <p class="pLinguagens">Extra</p>
+      <div class="gridLinguagem">
+        <div class="divLinguagem"><p>Github</p></div>
+        <div class="divLinguagem"><p>Wordpress</p></div>
+        <div class="divLinguagem"><p>Sublime text</p></div>
+        <div class="divLinguagem"><p>Canva</p></div>
+      </div>
+      <p id="pProjetos">Projetos</p>
+<p id="pCliqueProjetos">Clique para acessar</p>
+
+<div class="gridEA">
+
+  <!-- CARD 1 -->
+  <a class="aDivEA" href="https://juniordevti.github.io/projetolegends/" target="_blank">
+    <div class="divEA">
+      <div>
+        <p>Clan Legends</p>
+      </div>
+
+      <p class="pDescEA">
+        O Clan Legends é um projeto de desenvolvimento web focado em criar uma
+        plataforma interativa para jogadores de jogos de estratégia. O site
+        oferece recursos como criação de clãs, fóruns de discussão, rankings e
+        eventos para a comunidade gamer. Utilizando tecnologias modernas como
+        React para o frontend e Node.js para o backend, o projeto visa
+        proporcionar uma experiência envolvente e colaborativa para os
+        entusiastas de jogos de estratégia.
+      </p>
+    </div>
+  </a>
+
+  <!-- CARD 2 -->
+  <a class="aDivEA" href="https://juniordevti.github.io/quizprojetov2/" target="_blank">
+    <div class="divEA">
+      <div>
+        <p>Quiz para programadores</p>
+      </div>
+
+      <p class="pDescEA">
+        O Quiz para Programadores é um projeto de desenvolvimento web que
+        oferece uma plataforma interativa para testar e aprimorar conhecimentos
+        em programação. O site apresenta uma variedade de perguntas sobre
+        diferentes linguagens de programação, algoritmos e conceitos de
+        desenvolvimento. Com uma interface amigável e recursos de feedback, o
+        quiz é projetado para ajudar programadores de todos os níveis a
+        fortalecer suas habilidades e se divertir enquanto aprendem.
+      </p>
+    </div>
+  </a>
+
+  <!-- CARD 3 -->
+  <a class="aDivEA" href="https://juniordevti.github.io/landingpagededentista/" target="_blank">
+    <div class="divEA">
+      <div>
+        <p>Landing page para dentista</p>
+      </div>
+
+      <p class="pDescEA">
+        A Landing Page para Dentista é um projeto de desenvolvimento web
+        focado em criar uma página de destino atraente e funcional para
+        profissionais da odontologia. O site apresenta informações sobre os
+        serviços oferecidos, equipe, localização e agendamento de consultas.
+        Utilizando design responsivo e técnicas de SEO, a landing page visa
+        atrair novos pacientes e fornecer uma experiência positiva para os
+        visitantes interessados em cuidados dentários.
+      </p>
+    </div>
+  </a>
+  <a class="aDivEA" href="https://juniordevti.github.io/hamburgueria/" target="_blank">
+    <div class="divEA">
+      <div>
+        <p>Landing page hamburgueria</p>
+      </div>
+
+      <p class="pDescEA">
+        A Landing Page para Hamburgueria é um projeto de desenvolvimento web
+        focado em criar uma página de destino atraente e funcional para
+        profissionais do setor alimentício. O site apresenta informações sobre os
+        serviços oferecidos, cardápio, localização e agendamento de pedidos.
+        Utilizando design responsivo e técnicas de SEO, a landing page visa
+        atrair novos clientes e fornecer uma experiência positiva para os
+        visitantes interessados em produtos de fast food.
+      </p>
+    </div>
+  </a>
+  </a>
+</div>
+    </main>
+    <!--Html e css-->
+        <!-- <div class="divInfo">
+            <div class="divBtnFechar">
+                <div></div>
+                <div></div>
+            </div>
+            <p class="pNomeInfo">HTML e CSS</p>
+            <p class="pDescInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                in pariatur non necessitatibus. Consequuntur ad labore ratione
+                voluptates quae veniam nisi assumenda laboriosam quam ullam
+                iste, necessitatibus impedit sunt optio?
+            </p>
+        </div>
+
+        <div class="divInfo">
+            <div class="divBtnFechar">
+                <div></div>
+                <div></div>
+            </div>
+            <p class="pNomeInfo">HTML e CSS</p>
+            <p class="pDescInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                in pariatur non necessitatibus. Consequuntur ad labore ratione
+                voluptates quae veniam nisi assumenda laboriosam quam ullam
+                iste, necessitatibus impedit sunt optio?
+            </p>
+        </div>
+
+        <div class="divInfo">
+            <div class="divBtnFechar">
+                <div></div>
+                <div></div>
+            </div>
+            <p class="pNomeInfo">HTML e CSS</p>
+            <p class="pDescInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                in pariatur non necessitatibus. Consequuntur ad labore ratione
+                voluptates quae veniam nisi assumenda laboriosam quam ullam
+                iste, necessitatibus impedit sunt optio?
+            </p>
+        </div>
+
+        <div class="divInfo">
+            <div class="divBtnFechar">
+                <div></div>
+                <div></div>
+            </div>
+            <p class="pNomeInfo">HTML e CSS</p>
+            <p class="pDescInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                in pariatur non necessitatibus. Consequuntur ad labore ratione
+                voluptates quae veniam nisi assumenda laboriosam quam ullam
+                iste, necessitatibus impedit sunt optio?
+            </p>
+        </div>
+
+        <div class="divInfo">
+            <div class="divBtnFechar">
+                <div></div>
+                <div></div>
+            </div>
+            <p class="pNomeInfo">HTML e CSS</p>
+            <p class="pDescInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                in pariatur non necessitatibus. Consequuntur ad labore ratione
+                voluptates quae veniam nisi assumenda laboriosam quam ullam
+                iste, necessitatibus impedit sunt optio?
+            </p>
+        </div>
+
+        <div class="divInfo">
+            <div class="divBtnFechar">
+                <div></div>
+                <div></div>
+            </div>
+            <p class="pNomeInfo">HTML e CSS</p>
+            <p class="pDescInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                in pariatur non necessitatibus. Consequuntur ad labore ratione
+                voluptates quae veniam nisi assumenda laboriosam quam ullam
+                iste, necessitatibus impedit sunt optio?
+            </p>
+        </div>
+
+        <div class="divInfo">
+            <div class="divBtnFechar">
+                <div></div>
+                <div></div>
+            </div>
+            <p class="pNomeInfo">HTML e CSS</p>
+            <p class="pDescInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                in pariatur non necessitatibus. Consequuntur ad labore ratione
+                voluptates quae veniam nisi assumenda laboriosam quam ullam
+                iste, necessitatibus impedit sunt optio?
+            </p>
+        </div>
+
+        <div class="divInfo">
+            <div class="divBtnFechar">
+                <div></div>
+                <div></div>
+            </div>
+            <p class="pNomeInfo">HTML e CSS</p>
+            <p class="pDescInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                in pariatur non necessitatibus. Consequuntur ad labore ratione
+                voluptates quae veniam nisi assumenda laboriosam quam ullam
+                iste, necessitatibus impedit sunt optio?
+            </p>
+        </div>
+
+        <div class="divInfo">
+            <div class="divBtnFechar">
+                <div></div>
+                <div></div>
+            </div>
+            <p class="pNomeInfo">HTML e CSS</p>
+            <p class="pDescInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                in pariatur non necessitatibus. Consequuntur ad labore ratione
+                voluptates quae veniam nisi assumenda laboriosam quam ullam
+                iste, necessitatibus impedit sunt optio?
+            </p>
+        </div>
+
+        <div class="divInfo">
+            <div class="divBtnFechar">
+                <div></div>
+                <div></div>
+            </div>
+            <p class="pNomeInfo">HTML e CSS</p>
+            <p class="pDescInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                in pariatur non necessitatibus. Consequuntur ad labore ratione
+                voluptates quae veniam nisi assumenda laboriosam quam ullam
+                iste, necessitatibus impedit sunt optio?
+            </p>
+        </div>
+
+        <div class="divInfo">
+            <div class="divBtnFechar">
+                <div></div>
+                <div></div>
+            </div>
+            <p class="pNomeInfo">HTML e CSS</p>
+            <p class="pDescInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                in pariatur non necessitatibus. Consequuntur ad labore ratione
+                voluptates quae veniam nisi assumenda laboriosam quam ullam
+                iste, necessitatibus impedit sunt optio?
+            </p>
+        </div>
+
+        <div class="divInfo">
+            <div class="divBtnFechar">
+                <div></div>
+                <div></div>
+            </div>
+            <p class="pNomeInfo">HTML e CSS</p>
+            <p class="pDescInfo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                in pariatur non necessitatibus. Consequuntur ad labore ratione
+                voluptates quae veniam nisi assumenda laboriosam quam ullam
+                iste, necessitatibus impedit sunt optio?
+            </p>
+        </div> -->
+
+        <script src="script.js"></script>
+    </body>
+  </body>
+</html>
